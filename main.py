@@ -1,4 +1,4 @@
-# List of mission data (already given in your main file)
+# List of mission data
 mission_names = ['Apollo 11', 'Challenger', 'Curiosity Rover', 'Viking 1', 'Mars Pathfinder', 'Hubble Telescope', 'Apollo 13']
 mission_years = [1969, 1986, 2012, 1975, 1996, 1990, 1970]
 mission_success = [True, False, True, True, True, True, False]
@@ -24,10 +24,10 @@ for i in range(len(mission_names)):
     if mission_years[i] < 2000:
         missions_before_2000.append(mission_names[i])
 
-# Step 4: Calculate success rate
+# Calculate success rate
 success_rate = (successful_missions / total_missions) * 100
 
-# Step 5: Print the results in the required format
+# Print the results per format
 print("Total number of missions:", total_missions)
 print("Number of successful missions:", successful_missions)
 print("Success rate: {:.2f}%".format(success_rate))
