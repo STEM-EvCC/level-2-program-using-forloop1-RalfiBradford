@@ -3,14 +3,14 @@ mission_names = ['Apollo 11', 'Challenger', 'Curiosity Rover', 'Viking 1', 'Mars
 mission_years = [1969, 1986, 2012, 1975, 1996, 1990, 1970]
 mission_success = [True, False, True, True, True, True, False]
 
-# Create variables to keep track of counts
+# Variables to keep track of counts
 total_missions = 0
 successful_missions = 0
 
-# Create a list to store missions before the year 2000
+# list to store missions before the year 2000
 missions_before_2000 = []
 
-# Use a for loop to go through each mission
+# For loop to go through each mission
 for i in range(len(mission_names)):
     
     # Count total missions
